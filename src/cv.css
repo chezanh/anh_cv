@@ -4,6 +4,27 @@
   --maincolor: #e2d9d3;
   --secondcolor: #697068;
 }
+
+/*main and basic stuff*/
+h3 {
+  font-family: var(--main-font);
+  font-weight: 50;
+  color: var(--secondcolor);
+}
+
+h2 {
+  font-family: var(--main-font);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-top: 30px;
+}
+
+h1 {
+  color: white !important;
+}
+
+/*hero design*/
+
 .headerbild {
   position: absolute;
   top: 0;
@@ -40,23 +61,6 @@
   align-items: center;
   text-align: center;
 }
-h3 {
-  font-family: var(--main-font);
-  font-weight: 50;
-  color: var(--secondcolor);
-}
-
-h2 {
-  font-family: var(--main-font);
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  margin-top: 30px;
-}
-
-h1 {
-  color: white !important;
-}
-/*hero design*/
 
 .hero h1 {
   font-size: 12px !important;
@@ -64,12 +68,11 @@ h1 {
   font-size: 48px;
 }
 
-/*education & skills container design*/
+/*container design*/
 
-.skillseducation-container {
-  background-color: var(--maincolor);
-  width: 100%;
-  height: auto;
+.container {
+  margin-top: 50px;
+  margin-bottom: 100px !important;
 }
 
 /*navbar design*/

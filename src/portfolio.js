@@ -30,3 +30,11 @@
   window.addEventListener("resize", callbackFunc);
   window.addEventListener("scroll", callbackFunc);
 })();
+
+new TypeIt("typeintro", {
+  strings: ["Hello - xin chào, toi ten la", "- Anh Nguyen -"],
+  speed: 50,
+  waitUntilVisible: true,
+}).go();
+
+navigator;
