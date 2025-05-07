@@ -1,0 +1,100 @@
+:root {
+  --main-font: "proxima-nova";
+  --secondary-font: "Helvetica Neue", Helvetica, sans serif;
+  --maincolor: #e2d9d3;
+  --secondcolor: #697068;
+}
+.headerbild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background-image: url("/img/Anh.jpg");
+  background-size: cover;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  z-index: 0;
+  opacity: 0.5;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.hero:hover .headerbild {
+  opacity: 1;
+}
+.hero header {
+  padding-top: 150px;
+  position: relative;
+  z-index: 1;
+  color: var(--maincolor);
+}
+
+.hero {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+h3 {
+  font-family: var(--main-font);
+  font-weight: 50;
+  color: var(--secondcolor);
+}
+
+h2 {
+  font-family: var(--main-font);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-top: 30px;
+}
+
+h1 {
+  color: white !important;
+}
+/*hero design*/
+
+.hero h1 {
+  font-size: 12px !important;
+  color: var(--secondcolor);
+  font-size: 48px;
+}
+
+/*education & skills container design*/
+
+.skillseducation-container {
+  background-color: var(--maincolor);
+  width: 100%;
+  height: auto;
+}
+
+/*navbar design*/
+
+/*button styling*/
+
+button {
+  border-radius: 15px !important;
+  width: 100px;
+  border: 1px solid var(--secondcolor);
+  color: var(--secondcolor);
+  text-transform: uppercase !important;
+  font-size: small !important;
+  padding: 5px 10px !important;
+  margin-top: 20px !important;
+  cursor: pointer;
+}
+
+li {
+  list-style: disc;
+  font-size: small;
+  font-weight: bold;
+  color: var(--secondcolor);
+}
+
+.dropdown-experience {
+  list-style: none !important;
+}
